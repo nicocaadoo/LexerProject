@@ -49,26 +49,12 @@ Automated code-analysis tools like this one can improve educational processes, b
 
 ## Repository Structure
 
-> ✏️ *Adjust to match the actual files once organized in the repo, for example:*
 
 ```
-├── lexer.py              # DFA implementation and lexer logic
-├── highlighter.py        # HTML generation from tokenized output
-├── sequential_runner.py  # Sequential multi-file processing
-├── parallel_runner.py    # Thread-based parallel multi-file processing
-├── benchmarks/           # Timing results / speedup comparisons
-├── examples/              # Sample .py inputs and generated .html outputs
+├── Documentation/        # DFA implementation and lexer logic
+├── ejemplos/              # Sample .py inputs and generated .html outputs
+├── ejemplo6.html             
+├── ejemplo6.py
+├── Evidencia2.py         # Lexer Implementation
 └── README.md
-```
-
-## Usage
-
-> ✏️ *Fill in with the actual CLI/usage once confirmed, for example:*
-
-```bash
-# Sequential
-python sequential_runner.py path1.py path2.py my_dir/
-
-# Parallel
-python parallel_runner.py path1.py path2.py my_dir/
 ```

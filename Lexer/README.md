@@ -50,19 +50,10 @@ Tools like this can meaningfully support accessibility and education: well-highl
 
 ## Repository Structure
 
-> ✏️ *Adjust to match the actual files once organized in the repo, for example:*
-
 ```
-├── lexer.py         # DFA implementation and lexer logic
-├── highlighter.py   # HTML generation from tokenized output
-├── examples/         # Sample .py inputs and generated .html outputs
-└── README.md
-```
-
-## Usage
-
-> ✏️ *Fill in with the actual CLI/usage once confirmed, for example:*
-
-```bash
-python lexer.py input.py output.html
+├── Documentation/        # DFA implementation and lexer logic
+├── ejemplo.py            # example to highlight
+├── lexerProyecto1.py     # Lexer implementation             
+├── README.md
+└── resultado.html        # HTML that shows results
 ```
